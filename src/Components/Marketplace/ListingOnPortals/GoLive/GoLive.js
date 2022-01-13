@@ -25,7 +25,7 @@ const GoLive = (props) => {
                         <p style={{fontSize:'14px', marginTop:'4px'}}>Not Now</p>
                         <div>
                             <label className="switch">
-                                <input type="checkbox" defaultChecked />
+                                <input type="checkbox" style={{display:'none'}} defaultChecked />
                                 <span className="slider round"></span>
                             </label>
                         </div>
@@ -33,7 +33,7 @@ const GoLive = (props) => {
                     </div>
             <p style={{textAlign: 'center', fontSize:'13px', margin:'10px auto 30px'}}
                 onClick={() =>setShowComponent('myProperties') }
-                > <i style={{color:'#51B64F'}}>Schedule a “Go Live” date</i> </p>
+                > <i className='go-live-schedule'>Schedule a “Go Live” date</i> </p>
             <div style={{display:'grid', gridTemplateColumns:'1fr 30px 1fr', width:'240px', margin:'0 auto 0', gridGap:'10px'}}>
                 <div className='par-or-gem-div' style={{backgroundColor:'#4E444C'}}> 
                     <img style={{width:'70px', margin:'-10px 0 0 1px'}} src={pay} alt="" />

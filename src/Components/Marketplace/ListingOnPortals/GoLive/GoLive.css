@@ -72,3 +72,10 @@
   padding: 10px;
   border-radius: 10px;
 }
+.go-live-compo-wrapper .go-live-schedule {
+  color:#51B64F;
+}
+.go-live-compo-wrapper .go-live-schedule:hover {
+  color:red;
+  cursor: pointer;
+}
