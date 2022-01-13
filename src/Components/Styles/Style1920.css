@@ -1,0 +1,27 @@
+@media screen and (max-width: 1920px) {
+  #comp_sign_in {
+    width: 27% !important;
+  }
+  #top_title {
+    font-size: 25px;
+  }
+  #welcome {
+    padding-bottom: 10px !important;
+  }
+  #welcome_content_left {
+    padding: 12px 7px 5px 5px !important;
+  }
+  #welcome_content_right {
+    padding: 15px !important;
+  }
+  
+  .comp_form {
+    width: 37%;
+  }
+  .dashboard_page_content_header_icon {
+    width: 35px !important;
+  }
+  .dashboard_page_menu {
+    width: 27% !important;
+  }
+}

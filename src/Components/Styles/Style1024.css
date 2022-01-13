@@ -1,0 +1,166 @@
+@media screen and (max-width: 1048px) {
+  #app_title {
+    font-size: 50px !important;
+  }
+  #closer {
+    display: block !important;
+  }
+  #comp_help_close {
+    padding: 0 !important;
+    top: 0;
+  }
+  #comp_reference_help_txt {
+    padding-top: 0 !important;
+  }
+  #comp_reference_help_wrapper {
+    width: 60% !important;
+  }
+  #comp_sign_in {
+    width: 45% !important;
+  }
+  #comp_tenant_form_wrapper {
+    width: 37% !important;
+  }
+  #dashboard_page_content_header {
+    width: 100% !important;
+    z-index: 997;
+  }
+  #dashboard_menu {
+    display: none !important;
+  }
+  #dashboard_page_menu_web {
+    display: none !important;
+  }
+  #drawer_icon {
+    height: 100%;
+    width: 40px;
+    vertical-align: middle;
+  }
+  #forgot_password {
+    width: 45% !important;
+  }
+  #hm__btn {
+    width: 22% !important;
+  }
+  #missing_code {
+    width: 45% !important;
+  }
+  #mobile_menu {
+    background-color: #1C191D;
+    height: 100%;
+    width: 100%;
+  }
+  #mobile_menu_nav {
+    background-color: #161516;
+    height: 100%;
+    width: 22%;
+  }
+  #mobile_menu_page_nav {
+    height: 100%;
+    width: 100%;
+  }
+  #mobile_menu_wrapper {
+    display: none;
+    height: 100%;
+    left: 0 !important;
+    position: fixed;
+    top: 0 !important;
+    width: 38%;
+    z-index: 999;
+  }
+  #privacy_title {
+    margin-top: 20px !important;
+    padding: 0 2% !important;
+  }
+  #profile_verify_change {
+    width: 40% !important;
+  }
+  #ref_start {
+    width: 40% !important;
+  }
+  #reference_help {
+    margin-left: 0% !important;
+  }
+  #welcome {
+    display: block;
+    padding-bottom: 7px !important;
+    width: 70% !important;
+  }
+  #welcome_content_left {
+    padding: 12px 7px 7px 7px !important;
+  }
+  #welcome_content_right {
+    padding: 15px !important;
+  }
+  #reference {
+    width: 43% !important;
+  }
+  #reference_form {
+    width: 43% !important;
+  }
+  
+  
+  .close_x {
+    margin-top: 20px !important;
+    padding: 0 1.6% !important;
+  }
+  .close_x_help {
+    width: 98.5%;
+  }
+  .col_info, .col_menu_text {
+    font-size: 14px !important;
+  }
+  .comp_form {
+    width: 48%;
+  }
+  .col_info {
+    font-size: 13px !important;
+  }
+  .col_menu_text {
+    font-size: 11px !important;
+  }
+  .component_form_main {
+    width: 55%;
+  }
+  .dashboard_menu_box_marker_wrapper {
+    height: 51px !important;
+  }
+  .dashboard_page_content {
+    width: 100% !important;
+  }
+  .dashboard_page_content_header_icon {
+    margin-left: 10px;
+    width: 35px !important;
+  }
+  .drawer_wrapper {
+    justify-self: flex-start;
+    display: block !important;
+    height: 70%;
+    width: 100px;
+    z-index: 998;
+  }
+  .form {
+    width: 43% !important;
+  }
+  .full_text_title {
+    margin: 19px 0 10px 0 !important;
+    padding: 0 2%;
+    width: 100%;
+  }
+  .full_width_container_pop_up_content {
+    width: 95% !important;
+  }
+
+  .full_width_pop_up_full_text {
+    overflow-x: hidden;
+    padding: 2%;
+  }
+  .password_hint {
+    border-radius: 9px !important;
+    font-size: 12px !important;
+    padding: 7px 5px !important;
+  }
+  .welcome_title_sub {
+    padding: 0 0 0 1.3vw !important;
+  }
+}

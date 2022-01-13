@@ -1,0 +1,14 @@
+.your-orders-compo-wrapper{
+    width:350px;
+    /* background: linear-gradient(90deg, #3B203A, #190611); */
+    background: #292529;
+    /* background: red; */
+    padding:15px;
+    margin:100px auto;
+}
+.your-orders-compo-wrapper .order-brand-bg{
+    background: #3C363B;
+    padding:10px;
+    border-radius: 10px;
+    position: relative;
+}

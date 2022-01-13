@@ -1,0 +1,12 @@
+@media screen and (max-width: 1300px) {
+  #welcome_content_right_menu_2 {
+    justify-content: flex-start !important;
+    padding: 6px 6px 6px 7px !important;
+  }
+
+  .button_mini {
+    font-size: 11px !important;
+    height: 32px !important;
+    padding: 3.5px !important;
+  }
+}

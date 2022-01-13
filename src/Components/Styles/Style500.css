@@ -1,0 +1,161 @@
+@media screen and (max-width: 500px) {
+  #comp_reference_help_wrapper {
+    width: 95% !important;
+  }
+  #comp_help_close {
+    padding: 0 2.5% !important;
+  }
+  #comp_sign_in {
+    width: 95% !important;
+  }
+  #comp_tenant_form_wrapper {
+    width: 97% !important;
+  }
+  #comp_tenant_help_close {
+    padding: 0 0.0% !important;
+  }
+  #drawer_icon {
+    width: 40px;
+  }
+  #forgot_password {
+    width: 95% !important;
+  }
+  #incr_div {
+    flex-wrap: wrap;
+  }
+  #missing_code {
+    width: 95% !important;
+  }
+  #mobile_menu_nav {
+    width: 21%;
+  }
+  #mobile_menu_page_nav {
+    width: 79%;
+  }
+  #mobile_menu_wrapper {
+    width: 85%;
+  }
+  #my_properties {
+    width: 97% !important;
+  }
+  #payment_title_txt {
+    font-size: 22px !important;
+  }
+  #profile_verify_change {
+    width: 90% !important;
+  }
+  #ref_start {
+    width: 90% !important;
+  }
+  #ref_start_2_select {
+    font-size: 12px !important;
+    padding-left: 5px !important;
+  }
+  #renter-delete {
+    padding: 0 1.5px !important;
+  }
+  #welcome {
+    font-size: 34px;
+    padding: 5px !important;
+    width: 95% !important;
+  }
+  #welcome_content_left {
+    padding: 7px !important;
+  }
+  #welcome_content_right {
+    padding: 10px !important;
+    padding-bottom: 0 !important;
+  }
+  #welcome_header {
+    height: 50px !important;
+  }
+  #welcome_title_text {
+    font-size: 20px;
+  }
+  #welcome_header_sub {
+    font-size: 14px !important;
+    padding-bottom: 4px !important;
+  }
+
+  .close_x {
+    padding: 0 0.25% !important;
+  }
+  .close_x_1 {
+    width: 90%;
+  }
+  .col_ {
+    padding: 0 !important;
+  }
+  .col_button_img img {
+    height: 14px !important;
+  }
+  .col_button_name {
+    font-size: 12px !important;
+    height: 28px !important;
+    padding: 8px !important;
+  }
+  .col_info {
+    font-size: 12px !important;
+  }
+  .col_menu_text {
+    font-size: 12px !important;
+  }
+  .comp_form {
+    width: 90% !important;
+  }
+  .comp_icon_increment {
+    width: 20px !important;
+  }
+  .news_view_items {
+    height: auto !important;
+  }
+  .dashboard_menu_box_marker_wrapper {
+    height: 55px !important;
+  }
+  .dashboard_menu_box_m_txt {
+    font-size: 12px;
+  }
+  .dashboard_page_menu_item {
+    padding: 0 !important;
+  }
+  .password_hint {
+    border-radius: 10px !important;
+    font-size: 12px !important;
+    padding: 7px 7px !important;
+  }
+  .welcome_section_title {
+    font-size: 14px !important;
+    padding-bottom: 10px !important;
+    padding-top: 7px !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #news_view {
+    display: none;
+  }
+  #news_view_mobile {
+    display: block !important;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 15px;
+    width: 100%;
+  }
+  #news_view_items_img_mobile {
+    align-items: center;
+    border-radius: 15px;
+    height: 90px;
+    width: 90px;
+  }
+  #news_view_items_img_mobile img {
+    border-radius: 15px;
+    object-fit:cover;
+    height: 90px;
+    width: 90px;
+  }
+  
+  .table_button_plain_mobile {
+    font-size: 13px !important;
+  }
+}

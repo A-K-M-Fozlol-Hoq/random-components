@@ -1,0 +1,239 @@
+@media screen and (max-width: 800px) {
+  #checkout_left {
+    width: 100% !important;
+  }
+  #checkout_right {
+    display: none;
+  }
+  #closer {
+    display: block !important;
+  }
+  #comp_card_btn {
+    display: block !important;
+  }
+  #comp_reference_help_wrapper {
+    width: 82% !important;
+  }
+  #comp_report_div {
+    display: block !important;
+  }  
+  #comp_report_table {
+    display: none !important;
+  }
+  #comp_sign_in {
+    width: 55% !important;
+  }
+  #comp_tenant_form_wrapper {
+    width: 52% !important;
+  }
+  #comp_tenant_help {
+    width: 80% !important;
+  }
+  #dashboard_menu {
+    display: none !important;
+  }
+  #dashboard_page_content_header {
+    width: 100% !important;
+    z-index: 997;
+  }
+  #dashboard_page_menu_web {
+    display: none !important;
+  }
+  #drawer_icon {
+    width: 40px;
+  }
+  #forgot_password {
+    width: 55% !important;
+  }
+  #full_width_container_pop_up_content {
+    font-size: 30px !important;
+  }
+  #header_wrapper {
+    background-color: #1C191D;
+    display: none;
+    height: 100%;
+    left: 0 !important;
+    padding:  0 24px !important;
+    position: fixed;
+    top: 0 !important;
+    width: 100%;
+    z-index: 999;
+  } 
+  #header_wrapper_web {
+      display: none;
+  }
+  #hm__btn {
+    width: 22% !important;
+  }
+  #home_menu_item {
+    /*display: none;*/
+    padding-left: 6px !important;
+    width: 100%;
+  }
+  #missing_code {
+    width: 55% !important;
+  }
+  #mobile_menu {
+    background-color: #1C191D;
+    height: 100%;
+    width: 100%;
+  }
+  #mobile_menu_nav {
+    background-color: #161516;
+    height: 100%;
+    width: 21%;
+  }
+  #mobile_menu_page_nav {
+    height: 100%;
+    width: 79%;
+  }
+  #mobile_menu_wrapper {
+    display: none;
+    height: 100%;
+    left: 0 !important;
+    position: fixed;
+    top: 0 !important;
+    width: 52%;
+    z-index: 999;
+  }
+  #my_properties {
+    width: 60% !important;
+  }
+  #nav_menu_item {
+    /*display: none;
+    display: block !important;*/
+    width: 100%;
+  }
+  #payment_title {
+    width: 100% !important;
+  }
+  #payment_title_prog {
+    width: 100% !important;
+  }
+  #profile_verify_change {
+    width: 50% !important;
+  }
+  #reference, #reference_form, #payment_success {
+    width: 60% !important;
+  }
+  #reference {
+    width: 80% !important;
+  }
+  #reference_payment {
+    width: 80% !important;
+  }
+  #reference_help {
+    height: auto !important;
+    margin-left: 0% !important;
+    width: 90% !important;
+  }
+  #ref_start {
+    width: 50% !important;
+  }
+  #welcome {
+    font-size: 34px;
+    width: 60% !important;
+  }
+  #welcome_content {
+    flex-direction: column;
+    margin: 1vw 2vw !important;
+    padding-bottom: 24px;
+  }
+  #welcome_content_left {
+    padding: 1.5vw !important;
+    width: 100% !important;
+  }
+  #welcome_content_right {
+    margin-left: 0 !important;
+    margin-top: 20px;
+    padding: 2vw !important;
+    width: 100% !important;
+  }
+  #welcome_header {
+    padding: 2vw !important;
+  }
+  #welcome_header_sub {
+    padding: 0 2vw !important;
+  }
+  #welcome_title {
+    overflow-x: hidden !important;
+
+  }
+
+  .close_x {
+    padding: 0 1.2% !important;
+  }
+  .close_x_help {
+    width: 99.25%;
+  }
+  .col_button_name {
+    font-size: 14px !important;
+    height: 35px !important;
+  }
+  .col_menu_text {
+    font-size: 12px !important;
+  }
+  .comp_form {
+    width: 62% !important;
+  }
+  .component_form_main {
+    width: 77%;
+  }
+  .dashboard_page_content {
+    width: 100% !important;
+  }
+  .dashboard_page_content_header_icon {
+    margin-left: 10px;
+    width: 35px !important;
+  }
+  .form {
+    width: 90%;
+  }
+  .form_title {
+    font-size: 16px;
+    height: 18.75px;
+  }
+  .form_wrapper {
+    height: 100%;
+    margin: 0;
+  }
+  .full_text_content {
+    height: 88% !important;
+    margin: 0 18px 16px 0;
+    padding: 0 24px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 96%;
+  }
+  .full_text_title {
+    margin: 19px 0 10px 0 !important;
+    padding: 0 2%;
+    width: 100%;
+  }
+  .full_width_container_pop_up {
+    z-index: 998;
+  }
+  .full_width_container_pop_up_content {
+    max-height: 85%;
+    width: 94%;
+  }
+  .header_wrapper {
+    display: block !important;
+  }
+  .password_hint {
+    border-radius: 8px !important;
+    font-size: 11.5px !important;
+    padding: 7px 5px !important;
+  }
+  .pop_up_paragraph {
+    font-size: 14px !important;
+  }
+  .right_wrapper {
+    display: block !important;
+  }
+  .signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

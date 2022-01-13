@@ -1,0 +1,101 @@
+@media screen and (max-width: 1280px) {
+  #comp_reference_help {
+    width: 65%;
+  }
+  #comp_tenant_form_wrapper {
+    width: 30% !important;
+  }
+  #dashboard_menu {
+    width: 6.5% !important;
+  }
+  #forgot_password {
+    width: 30% !important;
+  }
+  #forgot_pass_text {
+    font-size: 14px !important;
+  }
+  #payment_done_title_txt {
+    font-size: 27px !important;
+  }
+  #profile_change_pass {
+    height: 39px !important;
+  }
+  #profile_verify_change {
+    width: 41% !important;
+  }
+  #reference {
+    width: 36% !important;
+  }
+  #ref_form_but_text {
+    margin-left: 0px !important;
+  }
+  #reference_form {
+    width: 50% !important;
+  }
+  #reference_help {
+    margin-left: 21.5% !important;
+  }
+  #welcome {
+    padding-bottom: 10px !important;
+  }
+  #welcome_content_left {
+    padding: 12px 7px 5px 5px !important;
+  }
+  #welcome_content_right {
+    padding: 15px !important;
+  }
+
+  .close_x {
+  }
+  .col_button_name {
+    font-size: 10px !important;
+  }
+  .comp_form {
+    width: 53%;
+  }
+  .comp_help_btn {
+    margin: 5px 0 0 0px;
+  }
+  .component_form_main {
+    width: 35%;
+  }
+  .dashboard_menu_box_marker_wrapper {
+    height: 45px !important;
+    width: 4% !important;
+  }
+  .dashboard_page_content {
+    width: 63.5% !important;
+  }
+  .dashboard_page_menu {
+    width: 32.5% !important;
+  }
+  .password_hint {
+    border-radius: 6px !important;
+    font-size: 10px !important;
+    padding: 4px 2px !important;
+  }
+  .ref_col_expanded:first-of-type {
+    width: 45% !important;
+  }
+  .ref_col_expanded:last-of-type {
+    width: 55% !important;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  #ref_start {
+    width: 47% !important;
+  }
+  #reference_payment {
+    width: 93% !important;
+  }
+  .comp_form {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .dashboard_page_menu {
+    width: 46% !important;
+  }
+}

@@ -1,0 +1,25 @@
+.market-reference-check-default-wrapper {
+    width:350px;
+    background: linear-gradient(0deg, #2D1B2A, #190611);
+    /* background: #292529; */
+    /* background: red; */
+    padding:15px;
+    position: relative;
+    margin:100px auto;
+    height: 850px;
+}
+.market-reference-check-default-wrapper .ref-check-address-div{
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    grid-gap: 10px;
+    background: #3B363B;
+    margin-bottom: 10px;
+    border-radius:10px;
+}
+.market-reference-check-default-wrapper .ref-check-address-div img{
+    width:100%;
+    margin-top: 2px;
+}
+.market-reference-check-default-wrapperr .ref-check-address-div p{
+    margin-top:15px;
+}

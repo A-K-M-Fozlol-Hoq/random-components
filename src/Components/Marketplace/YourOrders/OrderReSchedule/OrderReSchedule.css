@@ -1,0 +1,16 @@
+.order-re-schedule-wrapper{
+    width: 350px;
+    /* background: linear-gradient(0deg, #2D1B2A, #190611); */
+    background: #292529;
+    /* background: red; */
+    padding: 15px;
+    margin: 100px auto;
+    /* height: 1180px; */
+    position: relative;
+}
+.order-re-schedule-wrapper .order-brand-bg{
+    background: #3C363B;
+    padding:10px;
+    border-radius: 10px;
+    position: relative;
+}

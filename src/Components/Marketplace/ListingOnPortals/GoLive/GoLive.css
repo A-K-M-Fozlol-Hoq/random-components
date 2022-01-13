@@ -1,0 +1,74 @@
+.go-live-compo-wrapper {
+  width: 350px;
+  background: linear-gradient(0deg, #2D1B2A, #190611);
+  /* background: #292529; */
+  /* background: red; */
+  padding: 15px;
+  margin: 100px auto;
+  height: 600px;
+  position: relative;
+}
+
+.go-live-compo-wrapper .switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  margin: 3px auto 0;
+}
+
+.go-live-compo-wrapper.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.go-live-compo-wrapper .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.go-live-compo-wrapper .slider:before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  left: -4px;
+  bottom: -0px;
+  background-color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.go-live-compo-wrapper input:checked + .slider {
+  background-color: #93227F;
+}
+
+.go-live-compo-wrapper input:focus + .slider {
+  box-shadow: 0 0 1px #93227F;
+}
+
+.go-live-compo-wrapper input:checked + .slider:before {
+  -webkit-transform: translateX(34px);
+  -ms-transform: translateX(34px);
+  transform: translateX(34px);
+}
+
+/* Rounded sliders */
+.go-live-compo-wrapper .slider.round {
+  border-radius: 34px;
+}
+
+.go-live-compo-wrapper .slider.round:before {
+  border-radius: 50%;
+}
+.go-live-compo-wrapper .par-or-gem-div {
+  padding: 10px;
+  border-radius: 10px;
+}

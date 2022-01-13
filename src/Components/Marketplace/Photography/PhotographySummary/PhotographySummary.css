@@ -1,0 +1,10 @@
+.photography-summary-wrapper{
+    width:350px;
+    /* background: linear-gradient(0deg, #2D1B2A, #190611); */
+    background: #292529;
+    /* background: red; */
+    padding:15px;
+    position: relative;
+    margin:100px auto;
+    height: 850px;
+}

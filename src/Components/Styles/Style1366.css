@@ -1,0 +1,376 @@
+@media screen and (max-width: 1366px) {
+  #app_title {
+    font-size: 35px !important;
+  }
+  #comp_form_wrapper_check {
+    height: 95% !important;
+  }
+  #comp_reference_help_txt {
+    padding: 0 10px 0 20px !important;
+  }
+  #comp_reference_help_txt_title {
+    margin: 0 !important;
+  }
+  #comp_reference_help_wrapper {
+    width: 70% !important;
+  }
+  #comp_tenant_form {
+    font-size: 14px !important;
+  }
+  #comp_tenant_title {
+    font-size: 30px !important;
+  }
+  #dashboard_page_content_header {
+    height: 5% !important;
+  }
+  #last_bottom {
+    margin-bottom: 21px !important;
+  }
+  #missing_code_text {
+      font-size: 12px;
+  }
+  #payment_billing_ad {
+    margin-bottom: 15px !important;
+  }
+  #payment_title_basket {
+    padding-bottom: 0 !important;
+  }
+  #profile_change_pass {
+    height: 39px !important;
+  }
+  #profile_verify_change {
+    width: 41% !important;
+  }
+  #ref_start {
+    width: 41% !important;
+  }
+  #reference {
+    font-size: 22px !important;
+    min-height: 320px !important;
+    padding: 30px 0 0 3%;
+  }
+  #reference_form {
+    font-size: 24px !important;
+    overflow-y: auto;
+    padding: 30px 0 0 3%;
+    width: 41%;
+  }
+  #reference_payment {
+    font-size: 27px !important;
+    width: 90% !important;
+  }
+  #reference_total_num {
+    font-size: 18px !important;
+  }
+  #renter-delete {
+    padding: 0 3px !important;
+  }
+  #site_icon {
+    max-width: 40px !important;
+  }
+  #site_title {
+    font-size: 20px;
+  }
+  #top_title {
+    font-size: 18px !important;
+  }
+  #welcome {
+    border-radius: 15px;
+    font-size: 25px !important;
+    padding-bottom: 8px !important;
+    width: 60% !important;
+  }
+  #welcome_content_left {
+    padding: 12px 7px 5px 5px !important;
+  }
+  #welcome_content_right {
+    font-size: 12px !important;
+    padding: 15px !important;
+  }
+  #welcome_content_right_menu {
+    border-radius: 6px !important;
+    margin-top: 10px !important;
+    padding: 4px !important;
+    width: 100%;
+  }
+  #welcome_content_right_menu_2 {
+    justify-content: flex-start !important;
+    padding: 6px 6px 6px 16px !important;
+  }
+  #welcome_content_right_menu_3 {
+    padding: 6px 6px 6px 0px !important;
+  }
+  #welcome_menu {
+    margin-top: 8px !important;
+  }
+  #welcome_menu_info {
+    margin-top: 18px !important;
+    font-size: 12px !important;
+    padding-left: 3px;
+  }
+  #welcome_menu_info_1 {
+    margin: 0 0 0 0 !important;
+  }
+  
+  #welcome_menu_info_2 {
+    margin: 25px 0 25px 0 !important;
+  }
+  
+  #welcome_menu_info_3 {
+    margin: 28px 0 0 0 !important;
+  }
+  
+  #welcome_menu_info_4 {
+    margin: 12px 0 0 0 !important;
+  }
+  #welcome_menu_info_5 {
+    margin: 23px 0 0 0 !important;
+  }
+
+  .button_mini {
+    font-size: 11px !important;
+    height: 32px !important;
+    padding: 5px !important;
+  }
+  .close_x {
+    padding: 0 0.8% !important;
+  }
+  .col_button_name {
+    font-size: 11px !important;
+    height: 25px !important;
+  }
+  .comp_font_13 {
+    font-size: 9px;
+  }
+  .comp_font_14 {
+    font-size: 9.9px;
+  }
+  .comp_font_16 {
+    font-size: 11.5px;
+  }
+  .comp_font_18 {
+    font-size: 13px;
+  }
+  .comp_font_20 {
+    font-size: 14px;
+  }
+  .comp_font_25 {
+    font-size: 17px;
+  }
+  .comp_font_34 {
+    font-size: 23.5px;
+  }
+  .comp_form {
+    width: 44%;
+  }
+  .comp_form_info_btn {
+    border-radius: 8px;
+    padding: 4px 7px;
+  }
+  .comp_help_btn {
+    float: right;
+    margin: 10px 0 0 0px;
+  }
+  .comp_input {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .comp_input_stripe {
+    font-size: 11.5px !important;
+    padding: 10px !important;
+  }
+  .comp_input_container {
+    padding: 10px 10px;
+  }
+  .comp_input_label {
+    font-size: 12px;
+  }
+  .comp_page_menu_item td {
+    height: 38px;
+    padding: 0 1.5%;
+  }
+  .comp_page_menu_item td img {
+    height: 15px;
+  }
+  .comp_page_menu_item_dot img {
+    height: 9px !important;
+  }
+  .comp_pop_up {
+    width: 32%;
+  }
+  .comp_tenant_input {
+    font-size: 14px !important;
+  }
+  .component_form_main {
+    width: 32%;
+  }
+  .comp_tenant_check {
+    margin-bottom: 7px !important;
+  }
+  .dashboard_menu_box {
+    text-align: center;
+  }
+  .dashboard_menu_box_icon {
+    border-radius: 10px;
+    height: 40px;
+    padding: 6px;
+    width: 40px;
+  }
+  .dashboard_menu_box_icon_image_1 {
+    width: 30px;
+  }
+  .dashboard_menu_box_marker_wrapper {
+    height: 55px !important;
+  }
+  .dashboard_menu_logo {
+    width: 52px !important;
+  }
+  .dashboard_page_content_header_icon {
+    width: 25px;
+  }
+  .dashboard_page_menu {
+    width: 30% !important;
+  }
+  .dashboard_page_menu_item_box {
+    border-radius: 4px !important;
+    padding: 3px !important;
+  }
+  .dashboard_page_menu_item_box_image {
+    width: 7% !important;
+  }
+  .dashboard_page_menu_item_box_image_img {
+    height: 13px !important;
+    width: 15px !important;
+  }
+  .dashboard_page_menu_item_box_text {
+    font-size: 12.5px;
+    padding-left: 1% !important;
+  }
+  .dashboard_page_menu_title {
+    font-size: 18px !important;
+    margin-left: 3.5%;
+    margin-top: 10px !important;
+  }
+  .font_20 {
+    font-size: 12.5px;
+  }
+  .form {
+    width: 28%;
+  }
+  .form_text_notice {
+    font-size: 12px;
+  }
+  .form_title {
+    font-size: 18px;
+    height: 20px;
+    margin-top: 0;
+  }  
+  .form_title_sub {
+    font-size: 14px;
+    height: 16px;
+    margin-top: 8px;
+    margin-bottom: 17px;
+  }
+  .form_wrapper {
+    font-size: 14px;
+  }
+  .full_text_content {
+    font-size: 12.5px;
+  }
+  .full_width_pop_up_full_text {
+    font-size: 13px;
+  }
+  .inner_view_wide_table tbody {
+    font-size: 13px;
+    line-height: 14px;
+  }
+  .inner_view_wide_table thead {
+    font-size: 15.5px;
+    line-height: 18px;
+  }
+  .inner_view_wide_title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .input_sign_in {
+    font-size: 12px;
+    height: 33px;
+  }
+  .label_normal {
+    font-size: 12px;
+  }  
+  .label_warning {
+    font-size: 12px;
+  }
+  .password_hint {
+    border-radius: 7px !important;
+    font-size: 10px !important;
+    padding: 6px 7px !important;
+  }
+  .progress_wrapper {
+      position: relative;
+  }
+  .reference_items {
+    border: 1px solid #3C363B;
+    border-radius: 6px !important;
+    font-size: 15.5px !important;
+    margin-bottom: 11px !important;
+    padding: 10px !important;
+  }
+  .reference_items_text {
+    font-size: 11.5px !important;
+  }
+  .reference_items_text_1 {
+    font-size: 12px !important;
+  }
+  .site_link {
+    font-size: 17px;
+  }
+  .submit_button_gray, .submit_button_plain, .submit_button_purple {
+    font-size: 13px;
+    height: 38px !important;
+  }
+  .submit_button_primary {
+    font-size: 13px !important;
+    height: 41px;
+    line-height: 15px;
+    padding: 10px 25px 10px 25px !important;
+    width: 91%;
+  }
+  .text_error {
+    font-size: 15.5px !important;
+    line-height: 16.5px;
+  }
+  .text_primary {
+    font-size: 15.5px !important;
+    line-height: 16.5px !important;
+  }
+  .text_title_mid {
+    font-size: 16px;
+  }
+  .transparent_button_purple {
+    border-radius: 13px !important;
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+  .welcome_menu_icon {
+    width: 38px !important;
+    height: 38px !important;
+    border-radius: 8px;
+  }
+  .welcome_menu_icon_image {
+    width: 21px !important;
+  }
+  .welcome_menu_item {
+    margin-top: 10px !important;
+  }
+  .welcome_menu_item:last-of-type {
+    margin-bottom: 25px !important;
+  }
+  .welcome_title_sub {
+    font-size: 17px !important;
+  }
+  ::-webkit-scrollbar {
+    width: 5.5px;
+  }
+}

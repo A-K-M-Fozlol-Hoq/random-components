@@ -1,0 +1,9 @@
+.order-summary-wrapper{
+    width:350px;
+    /* background: linear-gradient(90deg, #3B203A, #190611); */
+    background: #292529;
+    /* background: red; */
+    padding:15px;
+    margin:100px auto;
+}
+   

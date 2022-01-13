@@ -1,0 +1,85 @@
+@media screen and (max-width: 1601px) {
+  #comp_sign_in {
+    width: 30% !important;
+  }
+  #comp_tenant_form_wrapper {
+    width: 27% !important;
+  }
+  #comp_tenant_help {
+    width: 60% !important;
+  }
+  #forgot_password {
+    width: 30% !important;
+  }
+  #missing_code {
+    width: 30% !important;
+  }
+  #my_properties {
+    width: 45% !important;
+  }
+  #news_view_wrapper {
+    width: 70% !important;
+  }
+  #payment_done_title_txt {
+    font-size: 30px !important;
+  }
+  #profile_verify_change {
+    width: 37% !important;
+  }
+  #top_title {
+    font-size: 20px;
+  }
+  #welcome {
+    padding-bottom: 10px !important;
+  }
+  #welcome_content_left {
+    padding: 12px 7px 5px 5px !important;
+  }
+  #welcome_content_right {
+    padding: 15px !important;
+  }
+
+  .col_button_name {
+    font-size: 13px !important;
+    height: 36px !important;
+  }
+  .comp_form {
+    width: 48%;
+  }
+  .dashboard_menu_box_icon {
+    border-radius: 18px;
+    height: 60px;
+    padding: 9px;
+    width: 60px;
+  }
+  .dashboard_page_content_header_icon {
+    width: 35px !important;
+  }
+  .dashboard_page_menu {
+    width: 35% !important;
+  }
+  .dashboard_menu_box_marker_wrapper {
+    height: 70px;
+  }
+  .ref_col_expanded {
+    padding: 5.5px;
+  }
+  .password_hint {
+    border-radius: 9px !important;
+    font-size: 12px !important;
+    padding: 7px 4px !important;
+  } 
+  .progress_wrapper{
+    margin: 12px 0 !important;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .ref_col_expanded:first-of-type {
+    width: 45% !important;
+  }
+  .ref_col_expanded:last-of-type {
+    width: 55% !important;
+  }
+  
+}

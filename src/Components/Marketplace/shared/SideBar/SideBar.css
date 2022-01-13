@@ -1,0 +1,11 @@
+.maintenance-sidebar-wrapper p {
+  margin: 0 auto 10px;
+  text-align: center;
+  font-size: 14px;
+}
+.maintenance-sidebar-wrapper img {
+  width: 60px;
+  margin: 5px 0 5px 15px;
+  border-radius:10px;
+  cursor: pointer;
+}

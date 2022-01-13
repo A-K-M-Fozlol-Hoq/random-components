@@ -1,0 +1,46 @@
+.market-default-view-wrapper {
+    width:350px;
+    /* background: linear-gradient(90deg, #3B203A, #190611); */
+    background: #292529;
+    /* background: red; */
+    padding:15px;
+    margin:100px auto;
+}
+.market-default-view-wrapper .marketplace-options{
+   border-radius: 10px;
+   height:105px;
+   padding:8px;
+   position: relative;
+}
+.market-default-view-wrapper .p-bottom{
+   position: absolute;
+   bottom:10px;
+   color: #000;
+   line-height: 18px;
+   cursor: pointer;
+}
+.market-default-view-wrapper .p-top{
+   position: absolute;
+   right:10px;
+   color: #fff;
+   font-size: 10px;
+   cursor: pointer;
+}
+.market-default-view-wrapper .marketplace-business-div{
+   height: 60px;
+   padding:10px;
+   background-color: green;
+   margin-bottom: 12px;
+   border-radius: 10px;
+}
+.market-default-view-wrapper .marketplace-p-up{
+    font-size:16px;
+    margin-bottom:0px;
+}
+.market-default-view-wrapper .marketplace-p-down{
+    font-size:12px;
+}
+.market-default-view-wrapper .marketplace-btn-div:hover{
+    cursor:pointer;
+    background-color: #93227F;
+}

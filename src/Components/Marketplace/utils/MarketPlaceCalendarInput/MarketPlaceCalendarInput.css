@@ -1,0 +1,39 @@
+.frame {
+  width: 270px;
+  border: 1px solid transparent;
+  margin: 0 auto;
+}
+.header {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 10px 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.body {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.day {
+  width: 14.2%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size:12px;
+}
+.today {
+  border: 1px solid transparent;
+}
+.selected {
+  background-color: #4E444C;
+  border-radius: 5px;
+  padding: 0 2px 0 2px;
+  width:25px;
+  height:25px;
+  margin:8px 7px 0 6px;
+}

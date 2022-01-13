@@ -1,0 +1,11 @@
+.order-details-compo-wrapper {
+    width: 350px;
+    background: linear-gradient(0deg, #2D1B2A, #190611);
+    /* background: #292529; */
+    /* background: red; */
+    padding: 15px;
+    margin: 100px auto;
+    height: 950px;
+    position: relative;
+  }
+  

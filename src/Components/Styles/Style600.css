@@ -1,0 +1,130 @@
+@media screen and (max-width: 600px) {
+  #app_title {
+    font-size: 35px !important;
+    line-height: 40px !important;
+  }
+  #comp_help_close {
+    padding: 0 1% !important;
+    position: absolute !important;
+    width: 100% !important;
+  }
+  #comp_reference_help_wrapper {
+    width: 100% !important;
+  }
+  #comp_reference_help::-webkit-scrollbar-track {
+    margin: 70px 0 !important;
+  }
+  #comp_sign_in {
+    width: 60% !important;
+  }
+  #comp_tenant_form_wrapper {
+    width: 70% !important;
+  }
+  #comp_tenant_help {
+    width: 97% !important;
+  }
+  #comp_tenant_help_close {
+    padding: 0 1.1% !important;
+  }
+  #drawer_icon {
+    width: 40px;
+  }
+  #forgot_password {
+    width: 60% !important;
+  }
+  #hm__btn {
+    width: 30% !important;
+  }
+  #missing_code {
+    width: 60% !important;
+  }
+  #mobile_menu_nav {
+    width: 19%;
+  }
+  #mobile_menu_page_nav {
+    width: 81%;
+  }
+  #mobile_menu_wrapper {
+    width: 65%;
+  }
+  #my_properties {
+    width: 75% !important;
+  }
+  #news_view_wrapper {
+    width: 97% !important;
+  }
+  #profile_verify_change {
+    width: 63% !important;
+  }
+  #ref_start {
+    width: 63% !important;
+  }
+  #top_title {
+    font-size: 16px !important;
+  }
+  #welcome {
+    font-size: 34px;
+    width: 75% !important;
+  }
+  #welcome_content_left {
+    padding: 7px !important;
+  }
+  #welcome_content_right {
+    padding: 10px !important;
+  }
+  #welcome_header {
+    height: 45px !important;
+    margin-top: 10px;
+  }
+  #welcome_title_text {
+    font-size: 20px;
+  }
+  #welcome_header_sub {
+    font-size: 15px !important;
+    padding-bottom: 4px !important;
+  }
+
+  .close_x{
+    padding: 0 0.9% !important;
+  }
+  .close_x_help {
+    width: 99.25%;
+  }
+  .col_button_img img {
+    height: 14px !important;
+  }
+  .col_button_name {
+    font-size: 12px !important;
+    padding: 10px !important;
+  }
+  .col_info {
+    font-size: 12px !important;
+  }
+  .col_menu_text {
+    font-size: 11px !important;
+  }
+  .welcome_section_title {
+    font-size: 15px !important;
+    padding-bottom: 0 !important;
+    padding-top: 7px !important;
+  }
+  .comp_form {
+    width: 75% !important;
+  }
+  .component_form_main {
+    width: 97%;
+  }
+  .form {
+    width: 90% !important;
+  }
+  .submit_button_gray, .submit_button_plain, .submit_button_purple {
+    font-size: 10px;
+  }
+  .button_mini {
+    font-size: 10px !important;
+    padding: 0 !important;
+  }
+  .dashboard_menu_box_marker_wrapper {
+    height: 52px !important;
+  }
+}

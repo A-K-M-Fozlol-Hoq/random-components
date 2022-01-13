@@ -1,0 +1,28 @@
+<div style={{marginTop: '20px'}}>
+                <BackAndQuestion setShowDefaultView={setShowDefaultView} value='default'></BackAndQuestion>
+            </div>
+            <p style={{lineHeight: '23px'}}>Select the property that you are <br /> purchasing the service for.</p>
+            <div style={{position: 'absolute', right:'10px'}}>
+                <span><BsSearch/></span> <span style={{marginLeft:'10px'}}><BsThreeDotsVertical/></span>
+            </div>
+            <div style={{marginTop:'60px'}}>
+                <div className="ref-check-address-div">
+                    <img src={place} alt="" />
+                    <p> First line of address </p>
+                </div>
+                <div className="ref-check-address-div">
+                    <img src={place} alt="" />
+                    <p> First line of address </p>
+                </div>
+                <div className="ref-check-address-div">
+                    <img src={place} alt="" />
+                    <p> First line of address </p>
+                </div>
+            </div>
+            <div style={{display:'grid', gridTemplateColumns:'20px 1fr', gridGap:'10px', width:'280px', border:'2px solid #3B363B', height:'44px',
+                borderRadius:'30px',position:'absolute', right:'10px', padding:'5px 10px', textAlign:'center', marginTop:'20px'}}>
+                <span style={{marginLeft:'15px'}}><BsPlusLg/></span>
+                <p>ADD A NEW PROPERTY</p>
+            </div>
+            <div style={{margin:'180px auto 30px',position:'absolute', right:'10px', background:'#93227F', width:'100px',
+            textAlign:'center', padding:'5px 10px', borderRadius:'30px', fontWeight:'700'}}>Next</div>
