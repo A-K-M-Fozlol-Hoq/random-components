@@ -11,7 +11,7 @@ const Photography = (props) => {
                 showComponent==='default'?
                 <PhotographyDefaultView selectedPack={selectedPack} setSelectedPack={setSelectedPack} setShowDefaultView={setShowDefaultView} setShowComponent={setShowComponent}></PhotographyDefaultView>
                 :
-                <PhotographySummary setShowDefaultView={setShowDefaultView} setShowComponent={setShowComponent} showComponent={showComponent}></PhotographySummary>
+                <PhotographySummary selectedPack={selectedPack} setShowDefaultView={setShowDefaultView} setShowComponent={setShowComponent} showComponent={showComponent}></PhotographySummary>
             }
         </div>
     );

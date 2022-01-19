@@ -2,9 +2,10 @@ import React,{useState} from 'react';
 import {BiChevronDown,BiChevronUp, BiCheck} from 'react-icons/bi';
 import ignore from '../images/ignore.png';
 import select from '../images/select.png';
-const ThreeDScan = () => {
-    const [clicked, setClicked] = useState(false)
-
+const ThreeDScan = (props) => {
+    const {setCost, setShowTotal} = props;
+    const [clicked, setClicked] = useState(true)
+    const [selectedScan, setSelectedScan]=useState('two')
     return (
         <div style={{margin:'15px 0'}}>
             {
@@ -18,20 +19,38 @@ const ThreeDScan = () => {
                     </div>
                     <div style={{textAlign:'center',padding:'5px', borderBottomLeftRadius:'5px', borderBottomRightRadius:'5px',
                         backgroundColor:'#3B363B', }}>
-                        <div style={{display:'grid', gridTemplateColumns:'1fr 1fr 20px', gridGap:'5px', marginTop:'10px'}}>
+                        <div style={{display:'grid', gridTemplateColumns:'1fr 1fr 20px', gridGap:'5px', marginTop:'10px'}}
+                            onClick={() =>{setCost(100); setSelectedScan('one'); setShowTotal(true)}}>
                             <div style={{fontSize:'15px'}}>2 Rooms</div>
-                            <div style={{fontSize:'15px'}}>£105</div>
-                            <img style={{width:'100%'}} src={ignore} alt="" />
+                            <div style={{fontSize:'15px'}}>£100</div>
+                            {
+                                 selectedScan ==="one"?
+                                 <img style={{width:'100%'}} src={select} alt="" />
+                                 :
+                                 <img style={{width:'100%'}} src={ignore} alt="" />
+                            }
                         </div>
-                        <div style={{display:'grid', gridTemplateColumns:'1fr 1fr 20px', gridGap:'5px', marginTop:'10px'}}>
+                        <div style={{display:'grid', gridTemplateColumns:'1fr 1fr 20px', gridGap:'5px', marginTop:'10px'}}
+                            onClick={() =>{setCost(105); setSelectedScan('two'); setShowTotal(true)}}>
                             <div style={{fontSize:'15px'}}>3 Rooms</div>
                             <div style={{fontSize:'15px'}}>£105</div>
-                            <img style={{width:'100%'}} src={select} alt="" />
+                            {
+                                 selectedScan ==="two"?
+                                 <img style={{width:'100%'}} src={select} alt="" />
+                                 :
+                                 <img style={{width:'100%'}} src={ignore} alt="" />
+                            }
                         </div>
-                        <div style={{display:'grid', gridTemplateColumns:'1fr 1fr 20px', gridGap:'5px', marginTop:'10px'}}>
+                        <div style={{display:'grid', gridTemplateColumns:'1fr 1fr 20px', gridGap:'5px', marginTop:'10px'}}
+                            onClick={() =>{setCost(110); setSelectedScan('three'); setShowTotal(true)}}>
                             <div style={{fontSize:'15px'}}>4 Rooms</div>
-                            <div style={{fontSize:'15px'}}>£105</div>
-                            <img style={{width:'100%'}} src={ignore} alt="" />
+                            <div style={{fontSize:'15px'}}>£110</div>
+                            {
+                                 selectedScan ==="three"?
+                                 <img style={{width:'100%'}} src={select} alt="" />
+                                 :
+                                 <img style={{width:'100%'}} src={ignore} alt="" />
+                            }
                         </div>
                     </div>
                 </div>

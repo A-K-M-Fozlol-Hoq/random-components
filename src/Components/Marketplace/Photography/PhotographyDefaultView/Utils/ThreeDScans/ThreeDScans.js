@@ -25,36 +25,132 @@ const ThreeDScans = (props) => {
                         </div>
                         <div style={{fontSize:'10px', textAlign:'center', margin:'8px auto'}}>2 Rooms</div>
                         <div style={{display:'grid', gridTemplateColumns:'1fr 1px 1fr 1px 1fr', gridGap:'5px', marginTop:'10px'}}>
-                            <div style={{textAlign:'center', fontSize:'15px'}}
-                                onClick={()=>setSelectedPack('omniHouse-1')}>£100</div>
-                            <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
-                            <div style={{textAlign:'center', fontSize:'15px'}}
-                                onClick={()=>setSelectedPack('rentProfile-1')}>£11.99</div>
-                            <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
-                            <div style={{textAlign:'center', fontSize:'15px'}}
-                                onClick={()=>setSelectedPack('veriCheck-1')}>£105</div>
+                            {
+                                selectedPack === "omniHouse-1"?
+                                <>
+                                    <div style={{textAlign:'center', fontSize:'15px',backgroundColor:'#D41553', borderRadius:'5px'}}
+                                        onClick={()=>setSelectedPack('omniHouse-1')}>£100</div>
+                                    <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
+                                </>
+                                :
+                                <>
+                                    <div style={{textAlign:'center', fontSize:'15px'}}
+                                        onClick={()=>setSelectedPack('omniHouse-1')}>£100</div>
+                                    <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
+                                </>
+                            }
+                            {
+                                selectedPack === "rentProfile-1"?
+                                <>
+                                    <div style={{textAlign:'center', fontSize:'15px',backgroundColor:'#D41553', borderRadius:'5px'}}
+                                        onClick={()=>setSelectedPack('rentProfile-1')}>£11.99</div>
+                                    <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
+                                </>
+                                :
+                                <>
+                                    <div style={{textAlign:'center', fontSize:'15px'}}
+                                        onClick={()=>setSelectedPack('rentProfile-1')}>£11.99</div>
+                                    <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
+                                </>
+                            }
+                            {
+                                selectedPack === "veriCheck-1"?
+                                <>
+                                    <div style={{textAlign:'center', fontSize:'15px',backgroundColor:'#D41553', borderRadius:'5px'}}
+                                    onClick={()=>setSelectedPack('veriCheck-1')}>£105</div>
+                                </>
+                                :
+                                <>
+                                    <div style={{textAlign:'center', fontSize:'15px'}}
+                                    onClick={()=>setSelectedPack('veriCheck-1')}>£105</div>
+                                </>
+                            }
                         </div>
                         <div style={{fontSize:'10px', textAlign:'center', margin:'8px auto'}}>3 Rooms</div>
                         <div style={{display:'grid', gridTemplateColumns:'1fr 1px 1fr 1px 1fr', gridGap:'5px', marginTop:'10px'}}>
-                            <div style={{textAlign:'center', fontSize:'15px'}}
-                                onClick={()=>setSelectedPack('omniHouse-2')}>£110</div>
-                            <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
-                            <div style={{textAlign:'center', fontSize:'15px'}}
-                                onClick={()=>setSelectedPack('rentProfile-2')}>£11.99</div>
-                            <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
-                            <div style={{textAlign:'center', fontSize:'15px'}}
-                                onClick={()=>setSelectedPack('veriCheck-2')}>£110</div>
+                            {
+                                selectedPack === "omniHouse-2"?
+                                <>
+                                    <div style={{textAlign:'center', fontSize:'15px',backgroundColor:'#D41553', borderRadius:'5px'}}
+                                        onClick={()=>setSelectedPack('omniHouse-2')}>£110</div>
+                                    <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
+                                </>
+                                :
+                                <>
+                                    <div style={{textAlign:'center', fontSize:'15px'}}
+                                        onClick={()=>setSelectedPack('omniHouse-2')}>£110</div>
+                                    <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
+                                </>
+                            }
+                            {
+                                selectedPack === "rentProfile-2"?
+                                <>
+                                    <div style={{textAlign:'center', fontSize:'15px',backgroundColor:'#D41553', borderRadius:'5px'}}
+                                        onClick={()=>setSelectedPack('rentProfile-2')}>£11.99</div>
+                                    <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
+                                </>
+                                :
+                                <>
+                                    <div style={{textAlign:'center', fontSize:'15px'}}
+                                        onClick={()=>setSelectedPack('rentProfile-2')}>£11.99</div>
+                                    <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
+                                </>
+                            }
+                            {
+                                selectedPack === "veriCheck-2"?
+                                <>
+                                    <div style={{textAlign:'center', fontSize:'15px',backgroundColor:'#D41553', borderRadius:'5px'}}
+                                    onClick={()=>setSelectedPack('veriCheck-2')}>£110</div>
+                                </>
+                                :
+                                <>
+                                    <div style={{textAlign:'center', fontSize:'15px'}}
+                                    onClick={()=>setSelectedPack('veriCheck-2')}>£110</div>
+                                </>
+                            }
                         </div>
                         <div style={{fontSize:'10px', textAlign:'center', margin:'8px auto'}}>4 Rooms</div>
                         <div style={{display:'grid', gridTemplateColumns:'1fr 1px 1fr 1px 1fr', gridGap:'5px', marginTop:'10px'}}>
-                            <div style={{textAlign:'center', fontSize:'15px'}}
-                                onClick={()=>setSelectedPack('omniHouse-3')}>£120</div>
-                            <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
-                            <div style={{textAlign:'center', fontSize:'15px'}}
-                                onClick={()=>setSelectedPack('rentProfile-3')}>£11.99</div>
-                            <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
-                            <div style={{textAlign:'center', fontSize:'15px'}}
-                                onClick={()=>setSelectedPack('veriCheck-3')}>£120</div>
+                            {
+                                selectedPack === "omniHouse-3"?
+                                <>
+                                    <div style={{textAlign:'center', fontSize:'15px',backgroundColor:'#D41553', borderRadius:'5px'}}
+                                        onClick={()=>setSelectedPack('omniHouse-3')}>£120</div>
+                                    <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
+                                </>
+                                :
+                                <>
+                                    <div style={{textAlign:'center', fontSize:'15px'}}
+                                        onClick={()=>setSelectedPack('omniHouse-3')}>£120</div>
+                                    <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
+                                </>
+                            }
+                            {
+                                selectedPack === "rentProfile-3"?
+                                <>
+                                    <div style={{textAlign:'center', fontSize:'15px',backgroundColor:'#D41553', borderRadius:'5px'}}
+                                        onClick={()=>setSelectedPack('rentProfile-3')}>£11.99</div>
+                                    <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
+                                </>
+                                :
+                                <>
+                                    <div style={{textAlign:'center', fontSize:'15px'}}
+                                        onClick={()=>setSelectedPack('rentProfile-3')}>£11.99</div>
+                                    <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
+                                </>
+                            }
+                            {
+                                selectedPack === "veriCheck-3"?
+                                <>
+                                    <div style={{textAlign:'center', fontSize:'15px',backgroundColor:'#D41553', borderRadius:'5px'}}
+                                    onClick={()=>setSelectedPack('veriCheck-3')}>£120</div>
+                                </>
+                                :
+                                <>
+                                    <div style={{textAlign:'center', fontSize:'15px'}}
+                                    onClick={()=>setSelectedPack('veriCheck-3')}>£120</div>
+                                </>
+                            }
                         </div>
                         <div style={{display:'grid', gridTemplateColumns:'1fr 1px 1fr 1px 1fr', gridGap:'5px', marginTop:'10px'}}>
                             <div style={{textAlign:'center', fontSize:'15px'}}>BOOK</div>
