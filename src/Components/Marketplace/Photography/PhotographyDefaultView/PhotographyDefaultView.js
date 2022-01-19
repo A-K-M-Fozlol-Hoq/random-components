@@ -8,7 +8,7 @@ import Photography from './Utils/Photography/Photography';
 import ThreeDScans from './Utils/ThreeDScans/ThreeDScans';
 import Floorplans from './Utils/Floorplans/Floorplans';
 const PhotographyDefaultView = (props) => {
-    const {setShowDefaultView, setShowComponent}= props;
+    const {setShowDefaultView, setShowComponent, setSelectedPack, selectedPack}= props;
     return (
         <div className='photography-default-view-wrapper'>
             <div style={{marginTop: '20px'}}>
@@ -31,16 +31,16 @@ const PhotographyDefaultView = (props) => {
             </div>
             <div style={{display:'grid', gridTemplateColumns:'1fr 1px 1fr 1px 1fr', gridGap:'5px',margin:'10px auto 20px'}}>
                 <div style={{borderRadius:'30px', padding:'5px 10px', textAlign:'center',backgroundColor:'#D41553'}}
-                onClick={() =>setShowComponent('summary')}>BOOK</div>
+                onClick={() =>{setShowComponent('summary');setSelectedPack('omniHouse')}}>BOOK</div>
                 <div style={{width:'1px', backgroundColor:'#5C4B58',height:'28px', marginTop:'2px'}}></div>
                 <div style={{borderRadius:'30px', padding:'5px 10px', textAlign:'center',backgroundColor:'#D41553'}}
-                onClick={() =>setShowComponent('summary')}>BOOK</div>
+                onClick={() =>{setShowComponent('summary');setSelectedPack('rentProfile')}}>BOOK</div>
                 <div style={{width:'1px', backgroundColor:'#5C4B58',height:'28px', marginTop:'2px'}}></div>
                 <div style={{borderRadius:'30px', padding:'5px 10px', textAlign:'center',backgroundColor:'#D41553'}}
-                onClick={() =>setShowComponent('summary')}>BOOK</div>
+                onClick={() =>{setShowComponent('summary');setSelectedPack('veriCheck')}}>BOOK</div>
             </div>
             <Photography></Photography>
-            <ThreeDScans></ThreeDScans>
+            <ThreeDScans setSelectedPack={setSelectedPack} selectedPack={selectedPack}></ThreeDScans>
             <Floorplans></Floorplans>
         </div>
     );

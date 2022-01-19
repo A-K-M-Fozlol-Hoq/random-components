@@ -1,7 +1,8 @@
 import React,{useState} from 'react';
 import {BiChevronDown,BiChevronUp, BiCheck} from 'react-icons/bi';
-const ThreeDScans = () => {
-    const [clicked, setClicked] = useState(false)
+const ThreeDScans = (props) => {
+    const { setSelectedPack, selectedPack } = props;
+    const [clicked, setClicked] = useState(true)
     return (
         <div style={{margin:'15px 0'}}>
             {
@@ -24,27 +25,36 @@ const ThreeDScans = () => {
                         </div>
                         <div style={{fontSize:'10px', textAlign:'center', margin:'8px auto'}}>2 Rooms</div>
                         <div style={{display:'grid', gridTemplateColumns:'1fr 1px 1fr 1px 1fr', gridGap:'5px', marginTop:'10px'}}>
-                            <div style={{textAlign:'center', fontSize:'15px'}}>£100</div>
+                            <div style={{textAlign:'center', fontSize:'15px'}}
+                                onClick={()=>setSelectedPack('omniHouse-1')}>£100</div>
                             <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
-                            <div style={{textAlign:'center', fontSize:'15px'}}>£11.99</div>
+                            <div style={{textAlign:'center', fontSize:'15px'}}
+                                onClick={()=>setSelectedPack('rentProfile-1')}>£11.99</div>
                             <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
-                            <div style={{textAlign:'center', fontSize:'15px'}}>£105</div>
+                            <div style={{textAlign:'center', fontSize:'15px'}}
+                                onClick={()=>setSelectedPack('veriCheck-1')}>£105</div>
                         </div>
                         <div style={{fontSize:'10px', textAlign:'center', margin:'8px auto'}}>3 Rooms</div>
                         <div style={{display:'grid', gridTemplateColumns:'1fr 1px 1fr 1px 1fr', gridGap:'5px', marginTop:'10px'}}>
-                            <div style={{textAlign:'center', fontSize:'15px'}}>£110</div>
+                            <div style={{textAlign:'center', fontSize:'15px'}}
+                                onClick={()=>setSelectedPack('omniHouse-2')}>£110</div>
                             <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
-                            <div style={{textAlign:'center', fontSize:'15px'}}>£11.99</div>
+                            <div style={{textAlign:'center', fontSize:'15px'}}
+                                onClick={()=>setSelectedPack('rentProfile-2')}>£11.99</div>
                             <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
-                            <div style={{textAlign:'center', fontSize:'15px'}}>£110</div>
+                            <div style={{textAlign:'center', fontSize:'15px'}}
+                                onClick={()=>setSelectedPack('veriCheck-2')}>£110</div>
                         </div>
                         <div style={{fontSize:'10px', textAlign:'center', margin:'8px auto'}}>4 Rooms</div>
                         <div style={{display:'grid', gridTemplateColumns:'1fr 1px 1fr 1px 1fr', gridGap:'5px', marginTop:'10px'}}>
-                            <div style={{textAlign:'center', fontSize:'15px'}}>£120</div>
+                            <div style={{textAlign:'center', fontSize:'15px'}}
+                                onClick={()=>setSelectedPack('omniHouse-3')}>£120</div>
                             <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
-                            <div style={{textAlign:'center', fontSize:'15px'}}>£11.99</div>
+                            <div style={{textAlign:'center', fontSize:'15px'}}
+                                onClick={()=>setSelectedPack('rentProfile-3')}>£11.99</div>
                             <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
-                            <div style={{textAlign:'center', fontSize:'15px'}}>£120</div>
+                            <div style={{textAlign:'center', fontSize:'15px'}}
+                                onClick={()=>setSelectedPack('veriCheck-3')}>£120</div>
                         </div>
                         <div style={{display:'grid', gridTemplateColumns:'1fr 1px 1fr 1px 1fr', gridGap:'5px', marginTop:'10px'}}>
                             <div style={{textAlign:'center', fontSize:'15px'}}>BOOK</div>

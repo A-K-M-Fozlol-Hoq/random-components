@@ -20,15 +20,6 @@ const Marketplace = () => {
     const [ isLoggedIn  , setIsLoggedIn] = useState(true)
     // const history = useHistory();
     useEffect(() =>{
-        // makeNoParamGetCall('/landlordaddresses')
-        // .then((data) => {
-        //     console.log(data);
-        //     if(data.email){
-        //         setLoggedInUser(data.email)
-        //     }else{
-        //         setLoggedInUser('')
-        //     }
-        // })
         // if(store.getState().user?.currentUser) {
         // if(store.store.getState().user?.currentUser) {
         //     setIsLoggedIn(true)

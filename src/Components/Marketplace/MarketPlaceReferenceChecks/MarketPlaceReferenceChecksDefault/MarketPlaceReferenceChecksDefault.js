@@ -8,7 +8,7 @@ import logo3 from './images/logo3.png';
 import ComprehensiveCheck from './Utils/ComprehensiveCheck/ComprehensiveCheck';
 import SpeedyCheck from './Utils/SpeedyCheck/SpeedyCheck';
 const MarketPlaceReferenceChecksDefault = (props) => {
-    const {setShowDefaultView, setShowComponent}= props;
+    const {setShowDefaultView, setShowComponent, setSelectedCheck}= props;
     return (
         <div className="market-reference-check-default-wrapper">
             <div style={{marginTop: '20px'}}>
@@ -31,16 +31,16 @@ const MarketPlaceReferenceChecksDefault = (props) => {
             </div>
             <div style={{display:'grid', gridTemplateColumns:'1fr 1px 1fr 1px 1fr', gridGap:'5px',}}>
                 <div style={{borderRadius:'30px', padding:'5px 10px', textAlign:'center',backgroundColor:'#D41553'}}
-                onClick={() =>setShowComponent('summary')}>BOOK</div>
+                onClick={() =>{setShowComponent('summary'); setSelectedCheck('omniHouse')}}>BOOK</div>
                 <div style={{width:'1px', backgroundColor:'#5C4B58',height:'28px', marginTop:'2px'}}></div>
                 <div style={{borderRadius:'30px', padding:'5px 10px', textAlign:'center',backgroundColor:'#D41553'}}
-                onClick={() =>setShowComponent('summary')}>BOOK</div>
+                onClick={() =>{setShowComponent('summary'); setSelectedCheck('rentProfile')}}>BOOK</div>
                 <div style={{width:'1px', backgroundColor:'#5C4B58',height:'28px', marginTop:'2px'}}></div>
                 <div style={{borderRadius:'30px', padding:'5px 10px', textAlign:'center',backgroundColor:'#D41553'}}
-                onClick={() =>setShowComponent('summary')}>BOOK</div>
+                onClick={() =>{setShowComponent('summary');setSelectedCheck('veriCheck')}}>BOOK</div>
             </div>
             <ComprehensiveCheck></ComprehensiveCheck>
-            <SpeedyCheck></SpeedyCheck>
+            <SpeedyCheck setSelectedCheck={setSelectedCheck} setShowComponent={setShowComponent}></SpeedyCheck>
         </div>
     );
 };

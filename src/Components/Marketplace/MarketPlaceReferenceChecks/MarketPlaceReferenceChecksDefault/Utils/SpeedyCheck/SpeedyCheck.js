@@ -1,7 +1,8 @@
 import React,{useState} from 'react';
 import {BiChevronDown,BiChevronUp, BiCheck} from 'react-icons/bi';
-const SpeedyCheck = () => {
-    const [clicked, setClicked] = useState(false)
+const SpeedyCheck = (props) => {
+    const {setShowComponent, setSelectedCheck} = props;
+    const [clicked, setClicked] = useState(true)
     return (
         <div style={{margin:'15px 0'}}>
             {
@@ -63,11 +64,14 @@ const SpeedyCheck = () => {
                             <div style={{textAlign:'center', fontSize:'25px', marginTop:'-10px'}}><BiCheck/></div>
                         </div>
                         <div style={{display:'grid', gridTemplateColumns:'1fr 1px 1fr 1px 1fr', gridGap:'5px', marginTop:'10px'}}>
-                            <div style={{textAlign:'center', fontSize:'15px'}}>BOOK</div>
+                            <div style={{textAlign:'center', fontSize:'15px'}}
+                                onClick={() =>{setShowComponent('summary'); setSelectedCheck('omniHouse')}}>BOOK</div>
                             <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
-                            <div style={{textAlign:'center', fontSize:'15px'}}>BOOK</div>
+                            <div style={{textAlign:'center', fontSize:'15px'}}
+                                onClick={() =>{setShowComponent('summary'); setSelectedCheck('rentProfile')}}>BOOK</div>
                             <div style={{width:'1px', backgroundColor:'#5C4B58',height:'20px', marginTop:'2px'}}></div>
-                            <div style={{textAlign:'center', fontSize:'15px'}}>BOOK</div>
+                            <div style={{textAlign:'center', fontSize:'15px'}}
+                                onClick={() =>{setShowComponent('summary');setSelectedCheck('veriCheck')}}>BOOK</div>
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 .market-default-view-wrapper {
-    width:350px;
+    width:380px;
     /* background: linear-gradient(90deg, #3B203A, #190611); */
     background: #292529;
     /* background: red; */
@@ -11,6 +11,7 @@
    height:105px;
    padding:8px;
    position: relative;
+   cursor: pointer;
 }
 .market-default-view-wrapper .p-bottom{
    position: absolute;

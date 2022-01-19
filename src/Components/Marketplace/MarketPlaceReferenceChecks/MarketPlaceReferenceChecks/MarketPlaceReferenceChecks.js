@@ -4,14 +4,14 @@ import './MarketPlaceReferenceChecks.css';
 import MarketPlaceReferenceChecksSummary from '../MarketPlaceReferenceChecksSummary/MarketPlaceReferenceChecksSummary';
 const MarketPlaceReferenceChecks = (props) => {
     const {showComponent, setShowComponent, setShowDefaultView}= props;
-    
+    const [ selectedCheck, setSelectedCheck] = useState('')
     return (
         <div className="market-reference-check-wrapper">
             {
                 showComponent==='default'?
-                <MarketPlaceReferenceChecksDefault setShowDefaultView={setShowDefaultView} setShowComponent={setShowComponent}></MarketPlaceReferenceChecksDefault>
+                <MarketPlaceReferenceChecksDefault setSelectedCheck={setSelectedCheck} setShowDefaultView={setShowDefaultView} setShowComponent={setShowComponent}></MarketPlaceReferenceChecksDefault>
                 :
-                <MarketPlaceReferenceChecksSummary setShowDefaultView={setShowDefaultView} setShowComponent={setShowComponent}></MarketPlaceReferenceChecksSummary>
+                <MarketPlaceReferenceChecksSummary selectedCheck={selectedCheck} setShowDefaultView={setShowDefaultView} setShowComponent={setShowComponent}></MarketPlaceReferenceChecksSummary>
 
             }
         </div>

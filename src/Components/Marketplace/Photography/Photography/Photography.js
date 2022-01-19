@@ -4,11 +4,12 @@ import PhotographyDefaultView from '../PhotographyDefaultView/PhotographyDefault
 import PhotographySummary from '../PhotographySummary/PhotographySummary';
 const Photography = (props) => {
     const {showComponent, setShowComponent, setShowDefaultView}= props;
+    const [ selectedPack, setSelectedPack] = useState('')
     return (
         <div className="photography-compo-wrapper">
             {
                 showComponent==='default'?
-                <PhotographyDefaultView setShowDefaultView={setShowDefaultView} setShowComponent={setShowComponent}></PhotographyDefaultView>
+                <PhotographyDefaultView selectedPack={selectedPack} setSelectedPack={setSelectedPack} setShowDefaultView={setShowDefaultView} setShowComponent={setShowComponent}></PhotographyDefaultView>
                 :
                 <PhotographySummary setShowDefaultView={setShowDefaultView} setShowComponent={setShowComponent} showComponent={showComponent}></PhotographySummary>
             }

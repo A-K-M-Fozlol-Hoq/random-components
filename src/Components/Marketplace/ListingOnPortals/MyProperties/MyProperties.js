@@ -10,7 +10,7 @@ const MyProperties = (props) => {
             }} onClick={()=>{setShowDefaultView('default')}}
             >CLOSE <span style={{fontWeight: '500', marginLeft:'10px'}}>X</span></div>
             <p style={{marginTop: '100px', fontSize:'19px', lineHeight:'22px'}}
-                >Select the expirey date of the certificate so we can remind you before it expires</p>
+                >Select the expiry date of the certificate so we can remind you before it expires</p>
             <MarketPlaceCalendarInput></MarketPlaceCalendarInput>
             <div style={{position: 'absolute', right:'15px',marginTop: '45px'
             }}>Next <span style={{fontSize:'20px'}}><MdOutlineNavigateNext/></span> </div>
