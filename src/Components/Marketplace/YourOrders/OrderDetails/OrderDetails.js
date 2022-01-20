@@ -26,7 +26,7 @@ const OrderDetails = (props) => {
                 <p style={{fontSize:'15px'}}>Window Cleaning Premium package</p>
             </div>
             <div style={{display:'grid', gridTemplateColumns:'1fr 1fr'}}>
-                <p style={{fontSize:'15px'}}>Order ID:</p>
+                <p style={{fontSize:'15px'}}>Order Address:</p>
                 <p style={{fontSize:'15px'}}>Omnihouse Ltd 1, Mayfair Plc <br /> WIJ 8AJ</p>
             </div>
             <div style={{display:'grid', gridTemplateColumns:'1fr 1fr'}}>

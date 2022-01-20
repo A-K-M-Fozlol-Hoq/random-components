@@ -1,5 +1,6 @@
 .photography-default-view-wrapper{
     width:380px;
+    border-radius:15px;
     background: linear-gradient(0deg, #2D1B2A, #190611);
     /* background: #292529; */
     /* background: red; */

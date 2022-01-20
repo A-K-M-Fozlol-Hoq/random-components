@@ -53,7 +53,7 @@ const OrderReSchedule = (props) => {
             {
                 showReScHelper?
                 <div>
-                     <p style={{fontSize:'14px', width:'80%'}}>Select your prefered date(s) and times for the service to be carrried out.</p>
+                     <p style={{fontSize:'14px', width:'80%'}}>Select your preferred date(s) and time(s) for the service to be carried out.</p>
                     <OfferDateCalendar selectedDates={selectedDates} setSelectedDates={setSelectedDates}></OfferDateCalendar>
                     <p>Dates selected:</p>
                     {
@@ -72,10 +72,10 @@ const OrderReSchedule = (props) => {
                                     onClick={()=>{changeDateColor(index, date, 1)}}>Morning</div>
                                     <div style={{padding:'5px 10px', textAlign:'center',  borderRadius:'10px'
                                     , background:`${JSON.stringify(date).split(" ")[5]}`}}
-                                    onClick={()=>{changeDateColor(index, date, 2)}}>Morning</div>
+                                    onClick={()=>{changeDateColor(index, date, 2)}}>Afternoon</div>
                                     <div style={{padding:'5px 10px', textAlign:'center', borderRadius:'10px'
                                     , background:`${JSON.stringify(date).split(" ")[6]}`}}
-                                    onClick={()=>{changeDateColor(index, date, 3)}}>Morning</div>
+                                    onClick={()=>{changeDateColor(index, date, 3)}}>Evening</div>
                                     {/*  */}
                                 </div>
                             </div>)

@@ -61,10 +61,12 @@ const OfferDateCalendar = ( props ) => {
                 // isToday={d === today.getDate()}
                 // isSelected={d === day}
                 onClick={() => {
-                  setDate(new Date(year, month, d)); 
-                  var id = "id" + Math.random().toString(16).slice(2)
-                  setSelectedDates([...selectedDates, [`f ${d} ${MONTHS[month]} ${year} #3A3339 #3A3339 #3A3339 ${id} l`]]);
-                  console.log(selectedDates)
+                  if(d>0){
+                    setDate(new Date(year, month, d)); 
+                    var id = "id" + Math.random().toString(16).slice(2)
+                    setSelectedDates([...selectedDates, [`f ${d} ${MONTHS[month]} ${year} #3A3339 #3A3339 #3A3339 ${id} l`]]);
+                    console.log(selectedDates)
+                  }
                 }}
               >
                 {

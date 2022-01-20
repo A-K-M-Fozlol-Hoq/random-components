@@ -6,6 +6,11 @@ const MaintenanceTicket = (props) => {
     const{setShowDefaultView, setShowComponent} = props;
     const [ selectedDates, setSelectedDates ] = useState([]);
     const [forceUpdate, setForceUpdate] = useState(0);
+    const [offeredDates, setOfferedDates] = useState([
+        {date:"15 January 2022", time:"Morning", id:"1"},
+        {date:"16 May 2022", time:"Afternoon", id:"2"},
+        {date:"17 June 2023", time:"Evening", id:"3"},
+    ]);
     const changeDateColor =(index, date, btnNum)=>{
         if(btnNum === 1) {
             if(JSON.stringify(date).split(" ")[4] === '#3A3339'){
@@ -38,6 +43,7 @@ const MaintenanceTicket = (props) => {
         const temp = selectedDates.filter(check);
         setSelectedDates(temp);
     }
+    // f 15 January 2022 #3A3339 #3A3339 #3A3339 idd9dcfec11f801 l
     return (
         <div className="maintenance-ticket-compo-wrapper" style={{paddingBottom:'100px'}}>
            <div style={{marginTop: '20px'}}>
@@ -46,28 +52,22 @@ const MaintenanceTicket = (props) => {
             </div>
             <p style={{fontSize:'15px', width:'80%', marginBottom:'25px'}}>The vendor has proposed the following times for the service.</p>
             {/* It should be a dynamic section */}
-            <div>
-                <p style={{textAlign:'center', fontSize:'15px', marginBottom:'10px', marginTop:'18px'}}>Morning of 04 May 2021</p>
-                <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gridGap:'10px'}}>
-                    <div style={{textAlign:'center', fontSize:'14px', padding:'6px 10px', borderRadius:'30px', background:'#2F7F2D'}}
-                    onClick={() =>setShowComponent('acceptOrder')}>ACCEPT</div>
-                    <div style={{textAlign:'center', fontSize:'14px', padding:'6px 10px', borderRadius:'30px', background:'#D00648'}}>DECLINE</div>
-                </div>
-
-                <p style={{textAlign:'center', fontSize:'15px', marginBottom:'10px', marginTop:'18px'}}>Morning of 04 May 2021</p>
-                <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gridGap:'10px'}}>
-                    <div style={{textAlign:'center', fontSize:'14px', padding:'6px 10px', borderRadius:'30px', background:'#2F7F2D'}}
-                    onClick={() =>setShowComponent('acceptOrder')}>ACCEPT</div>
-                    <div style={{textAlign:'center', fontSize:'14px', padding:'6px 10px', borderRadius:'30px', background:'#D00648'}}>DECLINE</div>
-                </div>
-
-                <p style={{textAlign:'center', fontSize:'15px', marginBottom:'10px', marginTop:'18px'}}>Morning of 04 May 2021</p>
-                <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gridGap:'10px'}}>
-                    <div style={{textAlign:'center', fontSize:'14px', padding:'6px 10px', borderRadius:'30px', background:'#2F7F2D'}}
-                    onClick={() =>setShowComponent('acceptOrder')}>ACCEPT</div>
-                    <div style={{textAlign:'center', fontSize:'14px', padding:'6px 10px', borderRadius:'30px', background:'#D00648'}}>DECLINE</div>
-                </div>
-            </div>
+            {
+                offeredDates.map((date, i) => 
+                <div>
+                    <p 
+                        style={{textAlign:'center', fontSize:'15px', marginBottom:'10px', marginTop:'18px'}}
+                        >{date.time} of {date.date.split(" ")[0]} {date.date.split(" ")[1]} {date.date.split(" ")[2]}</p>
+                    <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gridGap:'10px'}}>
+                        <div style={{textAlign:'center', fontSize:'14px', padding:'6px 10px', borderRadius:'30px', background:'#2F7F2D'}}
+                        onClick={() =>setShowComponent('acceptOrder')}>ACCEPT</div>
+                        <div 
+                            style={{textAlign:'center', fontSize:'14px', padding:'6px 10px', borderRadius:'30px', background:'#D00648'}}
+                            onClick={() =>setOfferedDates(offeredDates.filter(offeredDate =>offeredDate.id !== date.id))}
+                            >DECLINE</div>
+                    </div>
+                </div>)
+            }
             <p style={{textAlign:'center', fontSize:'14px', marginTop:'30px'}}>Or alternatively select other date(s) you can do:</p>
             <OfferDateCalendar selectedDates={selectedDates} setSelectedDates={setSelectedDates}></OfferDateCalendar>
             <p>Dates selected:</p>
@@ -87,10 +87,10 @@ const MaintenanceTicket = (props) => {
                             onClick={()=>{changeDateColor(index, date, 1)}}>Morning</div>
                             <div style={{padding:'5px 10px', textAlign:'center',  borderRadius:'10px'
                             , background:`${JSON.stringify(date).split(" ")[5]}`}}
-                            onClick={()=>{changeDateColor(index, date, 2)}}>Morning</div>
+                            onClick={()=>{changeDateColor(index, date, 2)}}>Afternoon</div>
                             <div style={{padding:'5px 10px', textAlign:'center', borderRadius:'10px'
                             , background:`${JSON.stringify(date).split(" ")[6]}`}}
-                            onClick={()=>{changeDateColor(index, date, 3)}}>Morning</div>
+                            onClick={()=>{changeDateColor(index, date, 3)}}>Evening</div>
                             {/*  */}
                         </div>
                     </div>)

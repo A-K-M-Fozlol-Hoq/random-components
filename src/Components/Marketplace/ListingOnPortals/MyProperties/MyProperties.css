@@ -1,5 +1,6 @@
 .my-properties-view-wrapper{
     width:380px;
+    border-radius:15px;
     /* background: linear-gradient(90deg, #3B203A, #190611); */
     background: #292529;
     /* background: red; */
